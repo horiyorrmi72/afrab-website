@@ -1,0 +1,13 @@
+<div class="container mt-5 mb-5">
+    <div class="row">
+
+        <div class="col-lg-6" *ngIf="prodData">
+           
+            <img src="{{prodData[0].pdImg}}" />
+            <h1>{{prodData[0].pdName}}</h1>
+            <p>{{prodData[0].pdDesc}}</p>
+            <p>{{prodData[0].pdPrice | currency:'USD'}}</p>
+        </div>
+    </div>
+</div>
+<!-- <h1>menu page works</h1> -->

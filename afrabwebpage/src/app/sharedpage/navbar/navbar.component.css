@@ -1,0 +1,13 @@
+.navbar{
+    background-color: var(--primary-color);
+
+}
+.navbar-expand-lg .navbar-collapse {
+    text-transform: uppercase;
+    color: var(--dark-color);
+}
+.navbar-expand-lg .navbar-collapse .active{
+    font-weight: bold;
+    color: var(--light);
+    text-decoration:underline;
+}

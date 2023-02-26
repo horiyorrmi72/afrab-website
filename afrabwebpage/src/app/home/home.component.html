@@ -1,0 +1,43 @@
+<div class="banner">
+    <div class="content">
+        <h1 class="mb-5">Afrab Chem Ltd</h1>
+        <a [routerLink]="['/about']">Read more...<i class="bi bi-arrow-right"></i></a>
+    </div>
+</div>
+<div class="container mt-5 mb-5">
+    <h1 class="text-center mb-3">ads</h1>
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="ads_box">
+                <h1>1</h1>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="ads_box">
+                <h1>2</h1>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="ads_box">
+                <h1>3</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- productbox -->
+<div class="container mt-4 mb-4">
+    <h1 class="text-center mb-3">Products</h1>
+    <div class="row">
+        <div class="col-lg-3 mt-3 " *ngFor="let pd of productData; index as i">
+            <div class="prodbox" *ngIf="i<=3">
+             <img src="{{pd.pdImg}}" alt="">
+             <h1>{{pd.pdName}}</h1>
+             <p>{{pd.pdPrice | currency:"USD"}}</p>
+            </div>
+        </div>
+    </div>
+    <a [routerLink]="['/products']" class="viewmorebtn">view more <i class="bi bi-arrow-right"></i></a>
+</div>
