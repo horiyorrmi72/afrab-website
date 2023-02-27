@@ -14,3 +14,8 @@ If you have any questions or concerns, please don't hesitate to contact us. You 
 By using our website, you agree to our terms of use. Our terms of use outline the rules and regulations that govern your use of our website. You can read our terms of use on the "Terms of Use" page.
 
 *Thank you for visiting our website. We look forward to serving you!*
+## Photo Credit
+Photo by <a href="https://unsplash.com/fr/@beenaturalles?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Bee Naturalles</a> on <a href="https://unsplash.com/photos/IRM9qgZdlW0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+Photo by <a href="https://unsplash.com/@nextvoyage_pl?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Andreas M</a> on <a href="https://unsplash.com/photos/AizSoIlfKRc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
